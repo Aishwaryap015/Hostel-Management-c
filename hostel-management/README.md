@@ -1,8 +1,13 @@
+# Hostel Management System in C
+
+This is a console-based hostel management system project written in C. It supports student admission, fee management, and record search.
+
+📌 **Check the GitHub Project Board for updates and tasks:**  
+[Hostel Management System Project Board](https://github.com/users/Aishwaryap015/projects/1)
 # Hostel Management System (C Project)
 
 A simple terminal-based Hostel Management System built using the C programming language. This project is built entirely from scratch without external libraries or dependencies.
 
-> ✅ Made by Aishwarya Priydarshni  
 > 🛠️ Built using only C language and VS Code
 
 ---
@@ -19,9 +24,11 @@ A simple terminal-based Hostel Management System built using the C programming l
 
 ## 🗂️ Project Structure
 
-hostel-management-c/
-├── hostel.c # Main source code
-├── README.md # Project documentation
+hostel-management/
+├── hostel.c         # Main source code
+├── hostel.txt       # Data file to store student records
+├── README.md        # Project documentation
+└── .gitignore       # Optional, to ignore compiled files
 
 
 ---
@@ -34,20 +41,33 @@ hostel-management-c/
 gcc hostel.c -o hostel
 ./hostel
 
---- Hostel Management System ---
-1. Add Student
-2. List All Students
-3. Exit
+===== Hostel Management System =====
+
+1. Add Student Record
+2. View All Records
+3. Search by Name or Room Number
+4. Exit
+
 Enter your choice: 1
 
-Enter Student ID: 101
-Enter Name: Arya Stark
-Enter Room Number: B203
+Enter Name: Arya
+Enter Age: 20
+Enter Room No: 105
 
-✅ Student Added Successfully:
-ID: 101
-Name: Arya Stark
-Room: B203
+Record saved successfully!
+
+
+📚 Concepts Used
+
+    File I/O in C
+
+    Structures
+
+    Switch-case logic
+
+    Functions and modular programming
+
+    Loops and input validation
 
 🚀 Future Enhancements:-
 
@@ -59,3 +79,8 @@ Room: B203
 
     Admin login system
 
+👩‍💻 Made By
+
+Aishwarya Priydarshni
+CSE (Data Science), Government Engineering College, Arwal
+First-hand project built from scratch for learning and demonstration.
